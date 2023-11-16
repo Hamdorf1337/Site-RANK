@@ -1,0 +1,368 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  width: 100%;
+  z-index: 999;
+  
+  background-color: #7d4deb
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  padding-left: 18px;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #cc9df5b2;
+}
+
+.cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+.imagem {
+  padding-left: 50px;
+  width: 250px;
+}
+
+.texto01 {
+  margin-left: 66px;
+  font-size: 21px;
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+  color: #25201D;
+}
+
+
+.texto2 {
+  margin-left: 82px;
+  padding-bottom: 5rem;
+  font-size: 21px;
+  font-family: "Montserrat", sans-serif;
+  color: #25201D;
+  display: inline;
+}
+
+.texto3 {
+  margin-left: 65px;
+  font-size: 20px;
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+  color: #25201D;
+}
+
+.texto4 {
+  margin-left: 109px;
+  font-size: 21px;
+  display: inline;
+  font-family:"Montserrat", sans-serif;
+  color: #25201D;
+}
+
+.texto5 {
+  margin-left: 160px;
+  font-size: 21px;
+  display: inline;
+  font-family:"Montserrat", sans-serif;
+  color: #25201D;
+}
+
+.texto6 {
+  margin-left: 146px;
+  font-size: 21px;
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+  color: #25201D;
+}
+
+
+#cat {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 50px;
+}
+
+.imagem1 {
+padding-left: 50px;
+width: 250px;
+}
+
+.imagem2 {
+padding-left: 50px;
+width: 250px;
+}
+
+
+.emp{
+font-family: "Montserrat", sans-serif;
+  margin-left: 50px
+  
+
+}
+
+
+#frelancer {
+font-family: "Montserrat", sans-serif;
+  margin-left: 50px
+
+}
+
+
+.imagem3 {
+padding-left: 50px;
+width: 370px;
+}
+
+#mais {
+font-family: "Montserrat", sans-serif;
+  margin-left: 50px
+}
+
+/* Aqui onde começa a pagina quem somos nos */
+
+.sobre{
+    width: 850px;
+    padding-top: 8%;
+    margin: 0 auto;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sobre h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.sobre a{
+  text-decoration: none;
+}
+
+.sobre h3{
+    text-transform: capitalize;
+}
+
+.sobre p{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    line-height: 30px;
+}
+
+button{
+    background: #008caf;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* Aqui onde começa a pagina dos contatos */
+
+.faq{
+    width: 550px;
+    padding-top: 8%;
+    margin: 0 auto;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+}
+
+.faq h1{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.dados_cliente{
+width: 100%;
+height: 100%;
+padding-top: 2%;
+display: flex;
+align-content: center;
+align-items: center;
+justify-content: center;
+}
+
+form {
+width: 600px;
+}
+
+.dados_cliente input, textarea{
+    font-family: "Montserrat", sans-serif;
+    border-radius: 10px;
+    width: 100%;
+    height: 200%;
+    padding: 10px;
+    outline: 0;
+    border: 2px solid #008caf;
+    color: #000000;
+    background: transparent;
+    font-size: 20px;
+}
+.test{
+    font-family: "Montserrat", sans-serif;
+}
+
+.botão2{
+text-align: center;
+}
+
+.rede_social{
+    width: 550px;
+    padding-top: 4%;
+    margin: 0 auto;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+/* Porque pra alinhar uma IMAGEM tem que usar text-align???? isso não é só pra texto */
+
+.rede_social h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Aqui onde começa a pagina dos colaboradores */
+
+.colaboradores p{
+  width: 900px;
+  padding-top: 2%;
+  margin: 0 auto;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+}
+
+.colaboradores h1{
+  font-size: 30px;
+  padding-top: 2%;
+  margin-bottom: 10px;
+
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.imagem_colaboradores {
+  text-align: center;
+}
+
+/* Aqui onde começa a pagina sobre o serviço */
+
+.fundo{
+  background-image: url(images/Bolas.png);
+}
+
+
+.sei_la{
+  width: 100%;
+  padding: 78px 0px;
+
+}
+
+.ser {
+  height: auto;
+}
+
+.kogos{
+  height: auto;
+}
+
+.serviço_texto {
+    width: 750px;
+}
+
+.foto{
+  width: 1400px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.serviço_texto h1{
+  font-size: 20px;
+  margin-bottom: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.serviço_texto h3{
+  font-size: 16px;
+  margin-bottom: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.serviço_texto p{
+  font-size: 15px;
+  margin-bottom: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.comentarios{
+  margin-top: 2%;
+  width: 1000px;
+  padding: 0.5%;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  border: 3px solid #008caf;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+.texto1{
+  margin: 2.5%;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
